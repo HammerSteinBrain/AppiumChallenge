@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: challenge.Test.ChallengeAppiumTests
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 1.701 s <<< FAILURE! - in challenge.Test.ChallengeAppiumTests
+challenge.Test.ChallengeAppiumTests.PerformMultiplication  Time elapsed: 1.287 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at challenge.Test.ChallengeAppiumTests.PerformMultiplication(ChallengeAppiumTests.java:202)
+
+challenge.Test.ChallengeAppiumTests.PerformSubtraction  Time elapsed: 0.115 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at challenge.Test.ChallengeAppiumTests.PerformSubtraction(ChallengeAppiumTests.java:156)
+
+challenge.Test.ChallengeAppiumTests.PerformSum  Time elapsed: 0.11 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at challenge.Test.ChallengeAppiumTests.PerformSum(ChallengeAppiumTests.java:110)
+
+challenge.Test.ChallengeAppiumTests.PerformDivision  Time elapsed: 0.138 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at challenge.Test.ChallengeAppiumTests.PerformDivision(ChallengeAppiumTests.java:249)
+
